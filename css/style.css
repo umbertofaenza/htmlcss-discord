@@ -102,6 +102,11 @@
     color: #ffffff;
 }
 
+.azure-btn {
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
+
 /** GENERICS */
 
 body {
@@ -178,7 +183,7 @@ li {
     margin: 0 20px;
 }
 
-.jumbotron-section .medium-btn i {
+.jumbotron-section .medium-btn i, .content-box .medium-btn i {
     margin-right: 10px;
 }
 
@@ -201,6 +206,12 @@ li {
 
 .content-box img {
     width: 100%;
+    margin-bottom: 50px;
+}
+
+.content-box h3 {
+    font-size: 2rem;
+    margin-bottom: 70px;
 }
 
 /* FOOTER */
